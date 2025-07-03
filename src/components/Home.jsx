@@ -93,6 +93,7 @@ const Home = () => {
         console.log("error in loading script", error);
       });
   }, []);
+
   return (
     <div>
       <h1>Spring boot Live batch</h1>

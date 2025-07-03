@@ -1,8 +1,8 @@
 import Keycloak from "keycloak-js";
 const keycloak = new Keycloak({
-  realm: "dvd",
+  realm: "micro-dev",
   url: "http://localhost:9190",
-  clientId: "elearn-app",
+  clientId: "mind-up",
   pkceMethod: "S256",
 });
 export default keycloak;

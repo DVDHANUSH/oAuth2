@@ -9,7 +9,7 @@ function App() {
     <>
       {isAuthenticated ? (
         <div>
-          <h1>Welcom to Oauth Application Frontend.</h1>
+          <h1>Welcome to Oauth Application Frontend.</h1>
           <h1>UserName : {keycloak.tokenParsed.preferred_username}</h1>
           <h1>User Information</h1>
           <h2>Email : {keycloak.tokenParsed.email}</h2>
